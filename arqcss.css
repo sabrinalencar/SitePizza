@@ -1,0 +1,128 @@
+.titulo
+{
+    font-family: 'Ewert', cursive;
+    color: darkred;
+    text-align: center;
+    font-size: 2.7em;
+    width: 100vw;
+    height: 13vh;
+    max-width: 100%;
+    max-height: 2%;
+    margin-bottom: 25px;
+}
+h1{ 
+    display: flex;
+    justify-content: center;
+}
+.logo
+{
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    
+}
+body{
+    background-image: url("https://st2.depositphotos.com/4784945/7302/v/950/depositphotos_73025653-stock-illustration-ingredients-of-pizza-on-pastel.jpg");
+    background-repeat: repeat;   
+    
+}
+.espe{
+    text-align: center;
+    background-color:bisque;
+    color: darkred;
+    margin-top: 70px;
+    font-size: 2em;
+    width: 100vw;
+    height:4vh;
+}
+h2:hover{
+    color: green;
+}
+.caixa{
+    background-color:bisque;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+    width: 40vw;
+    height: 5vh;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 5px 10px rgb(139, 0, 0);
+    
+}
+.tel{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu{
+    margin-top: 25px;
+    max-width: 70%;
+    width: 40vw;
+}
+
+.dMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.vegetarianas{
+    text-align: center;
+    background-color:bisque;
+    color: darkred;
+    margin-top: 50px;
+    font-size: 2em;
+    width: 100vw;
+    height:4vh;
+}
+
+.vet{
+    
+    width:20vw;
+    height: auto;
+    margin-top: 37px;
+}
+.imgvet{
+    display: flex;
+    justify-content: center;
+
+}
+.pizzasDoces{
+    text-align: center;
+    background-color:bisque;
+    color: darkred;
+    margin-top: 50px;
+    font-size: 2em;
+    width: 100vw;
+    height:4vh; 
+}
+.imgdoces{
+    display: flex;
+    justify-content: center;
+}
+.doces{
+    display: block;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 37px;
+
+}
+
+  
+@media only screen and (max-width: 800px)
+{
+    .imgvet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:  center;    
+    }
+    .vet{
+    width: 30vw;
+    }
+    .caixaTexto{
+        font-size: 1.3em;
+    }
+}
